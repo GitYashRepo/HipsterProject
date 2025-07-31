@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Theme 1  */
+:root {
+  --color-primary: 240 5.9% 10%;
+  --color-secondary: 240 4.8% 95.9%;
+  --color-text: 240 5.3% 26.1%;
+  --color-background: 0 0% 100%;
+  --color-card-background: 0 0% 100%;
+  --color-border: 220 13% 91%;
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-playful: "Pacifico", cursive;
+  --border-radius: 0.5rem;
+  --spacing-unit: 1rem;
+  --background: var(--color-background);
+  --foreground: var(--color-text);
+  --card: var(--color-card-background);
+  --card-foreground: var(--color-text);
+  --popover: var(--color-background);
+  --popover-foreground: var(--color-text);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-secondary);
+  --secondary: var(--color-secondary);
+  --secondary-foreground: var(--color-primary);
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 240 5.9% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: var(--color-border);
+  --input: 220 13% 91%;
+  --ring: 217.2 91.2% 59.8%;
+  --radius: var(--border-radius);
+}
+
+/* Theme 2 (Dark mode) */
+html[data-theme="theme2"] {
+  --color-primary: 0 0% 98%;
+  --color-secondary: 240 5.9% 10%;
+  --color-text: 240 4.8% 95.9%;
+  --color-background: 240 5.9% 10%;
+  --color-card-background: 240 3.7% 15.9%;
+  --color-border: 240 3.7% 15.9%;
+  --font-sans: var(--font-serif);
+  --border-radius: 0.75rem;
+  --spacing-unit: 1.25rem;
+  --background: var(--color-background);
+  --foreground: var(--color-text);
+  --card: var(--color-card-background);
+  --card-foreground: var(--color-text);
+  --popover: var(--color-background);
+  --popover-foreground: var(--color-text);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-secondary);
+  --secondary: var(--color-secondary);
+  --secondary-foreground: var(--color-primary);
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 240 4.8% 95.9%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: var(--color-border);
+  --input: 240 3.7% 15.9%;
+  --ring: 217.2 91.2% 59.8%;
+}
+
+/* Theme 3 (Colorful, Card-based grid) */
+html[data-theme="theme3"] {
+  --color-primary: 25 95% 53%;
+  --color-secondary: 200 90% 70%;
+  --color-text: 240 5.3% 26.1%;
+  --color-background: 30 100% 95%;
+  --color-card-background: 0 0% 100%;
+  --color-border: 25 95% 53%;
+  --font-sans: var(--font-playful);
+  --border-radius: 1rem;
+  --spacing-unit: 1.5rem;
+  --background: var(--color-background);
+  --foreground: var(--color-text);
+  --card: var(--color-card-background);
+  --card-foreground: var(--color-text);
+  --popover: var(--color-background);
+  --popover-foreground: var(--color-text);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-secondary);
+  --secondary: var(--color-secondary);
+  --secondary-foreground: var(--color-primary);
+  --muted: 30 100% 90%;
+  --muted-foreground: 240 5.3% 26.1%;
+  --accent: 200 90% 70%;
+  --accent-foreground: 240 5.3% 26.1%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: var(--color-border);
+  --input: 25 95% 85%;
+  --ring: 25 95% 53%;
+}
+
+/* Global transitions for smooth theme changes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, font-family 0.3s ease;
+}
