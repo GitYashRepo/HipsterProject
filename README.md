@@ -81,11 +81,7 @@ The project is organized as follows:
 │       └── favicon-32x32.png
 ├── src/
 │   ├── assets/ (for images, etc.)
-│   ├── components/ (reusable UI components)
-│   │   ├── ui/ (shadcn/ui components)
-│   │   └── ...
-│   ├── hooks/ (custom React hooks)
-│   ├── lib/ (utility functions, data)
+│   ├── lib/ (data)
 │   ├── pages/ (main application pages)
 │   │   ├── About/
 │   │   │   └── About.tsx
@@ -97,21 +93,22 @@ The project is organized as follows:
 │   │   ├── index.ts
 │   │   ├── productSlice.ts
 │   │   └── themeSlice.ts
-│   ├── styles/ (global CSS, theme-specific styles)
 │   ├── webcomponants/ (specific web components like Navbar, Footer, ProductCard)
 │   │   ├── Footer/
 │   │   │   └── Footer.tsx
 │   │   ├── Navbar/
 │   │   │   └── Navbar.tsx
 │   │   └── ProductCard/
-│   │       └── ProductCard.tsx
+│   │   │    └── ProductCard.tsx
+│   │   └── ThemeProvider/
+│   │   │   └── ThemeProvider.tsx
+│   ├── global.css
 │   ├── App.tsx (main application component)
 │   ├── main.tsx (React entry point)
 │   └── index.css (global styles)
 ├── tailwind.config.ts
 ├── postcss.config.js
 ├── tsconfig.json
-└── README.md
 ```
 
 ## Code Documentation/Comments
