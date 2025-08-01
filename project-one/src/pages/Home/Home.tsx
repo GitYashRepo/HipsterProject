@@ -21,7 +21,7 @@ const Home = () => {
           three distinct themes (Theme 1, Theme 2, Theme 3) using a dropdown in the header. Each theme should not only
           change colors, but also alter structure, fonts, spacing, and layout.
         </p>
-        <div className="flex flex-col mb-10 py-10 bg-white text-gray-900 px-4 sm:px-8 md:px-12 lg:px-20">
+        <div className="flex flex-col mb-10 py-10 bg-background px-4 sm:px-8 md:px-12 lg:px-20">
           <h1 className="text-4xl  text-left mb-8">Requirements:</h1>
           <ol className="list-decimal list-inside space-y-6">
             <li className="text-xl  mb-2">
