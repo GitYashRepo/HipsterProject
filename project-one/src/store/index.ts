@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit"
 import { persistStore, persistReducer } from "redux-persist"
 import storage from "redux-persist/lib/storage"
 import themeReducer from "./themeSlice"
+import productReducer from "./productSlice"
 
 const persistConfig = {
   key: "root",
@@ -14,6 +15,7 @@ const persistedThemeReducer = persistReducer(persistConfig, themeReducer)
 export const store = configureStore({
   reducer: {
     theme: persistedThemeReducer,
+    products: productReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
