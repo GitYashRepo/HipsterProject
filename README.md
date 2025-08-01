@@ -48,26 +48,26 @@ To get this project up and running on your local machine, follow these steps:
 
 First, clone the project repository to your local machine using Git:
 
-\`\`\`bash
+```bash
 git clone (https://github.com/GitYashRepo/HipsterProject)
 cd project-one
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
 Navigate into the project directory and install the necessary Node.js packages using npm
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Run the Application
 
 Once the dependencies are installed, you can start the development server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 This will typically start the application on `http://localhost:5173`. Open your browser and navigate to this address to see the app in action.
 
@@ -75,8 +75,7 @@ This will typically start the application on `http://localhost:5173`. Open your 
 
 The project is organized as follows:
 
-\`\`\`
-.
+```
 ├── public/
 │   └── icon/
 │       └── favicon-32x32.png
@@ -113,7 +112,7 @@ The project is organized as follows:
 ├── postcss.config.js
 ├── tsconfig.json
 └── README.md
-\`\`\`
+```
 
 ## Code Documentation/Comments
 
