@@ -1,3 +1,12 @@
+# Name :
+## Yash Singh
+
+# Job Role Applying For:
+## Frontend React Developer
+
+# Email :
+## singhyash3012@gmail.com
+
 # Multi-Theme Switcher App
 
 This project is a React-based web application featuring a dynamic theme switcher. It allows users to select from three distinct themes, each altering not only colors but also the overall structure, fonts, spacing, and layout of the application. The application demonstrates responsive design and uses Redux for state management, with theme persistence across page reloads using `localStorage`.
