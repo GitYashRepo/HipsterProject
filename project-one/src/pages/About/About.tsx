@@ -7,6 +7,9 @@ const About = () => {
           <div className="w-full my-4 px-12">
                 <h1 className="text-center text-4xl font-semibold">About Me</h1>
                 <p className="mt-2 text-xl text-center leading-relaxed mb-8">My name is Yash Singh,Full Stack MERN Developer with over 2 years of freelance experience [created over 7-8 websites on my own including MERN Stack ecommerce website.] and a 5-month internship experience at Cloudify.Biz (Feb 6, 2025 – June 20, 2025), where I worked as a Frontend Developer managing their SaaS applications built using React, Redux on a turborepo folder structure, I have developed and enhanced a variety of SaaS and client-facing web applications.</p>
+          <p className="text-center font-semibold">Name: Yash Singh</p>
+          <p className="text-center font-semibold">Role Applying: Frontend React Developer Position</p>
+          <p className="text-center font-semibold">Email: Singhyash3012@gmail.com</p>
           </div>
           <h1 className="text-center text-4xl font-semibold py-8">My projects</h1>
           {projectsData.map((project, index) => (
